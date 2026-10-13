@@ -15,7 +15,7 @@ export function ProjectSection({
       className="flex flex-col gap-3 border-t border-border py-10 md:flex-row md:gap-12"
     >
       <div className="flex shrink-0 items-baseline gap-3 md:w-56">
-        <span className="font-mono text-sm text-primary">{number}</span>
+        <span className="font-mono text-sm text-highlight">{number}</span>
         <h2 id={`section-${number}`} className="text-sm font-semibold uppercase tracking-widest text-foreground">
           {title}
         </h2>

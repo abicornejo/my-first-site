@@ -4,7 +4,8 @@ import './globals.css'
 
 export const metadata: Metadata = {
   title: 'Pizza',
-  description: 'A one-page overview of the Pizza project.',
+  description:
+    'Pizza is a beloved Italian dish that brings people together, crosses cultural boundaries, and is one of the most shared and loved meals globally. By lorenzo cornejo.',
   generator: 'v0.app',
   icons: {
     icon: [

@@ -8,7 +8,10 @@ export default function Page() {
   return (
     <main className="mx-auto flex min-h-screen max-w-4xl flex-col px-6 py-16 md:py-24">
       <header className="flex flex-col gap-6 pb-14">
-        <div className="h-2 w-16 rounded-full bg-primary" aria-hidden="true" />
+        <div className="flex gap-1.5" aria-hidden="true">
+          <div className="h-2 w-16 rounded-full bg-primary" />
+          <div className="h-2 w-8 rounded-full bg-highlight" />
+        </div>
         <p className="font-mono text-sm uppercase tracking-widest text-muted-foreground">Project</p>
         <h1 className="text-6xl font-bold tracking-tight text-foreground md:text-8xl">{name}</h1>
       </header>
