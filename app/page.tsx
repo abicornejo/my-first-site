@@ -14,6 +14,7 @@ export default function Page() {
         </div>
         <p className="font-mono text-sm uppercase tracking-widest text-muted-foreground">Project</p>
         <h1 className="text-6xl font-bold tracking-tight text-foreground md:text-8xl">Pizza Planeta</h1>
+        <p className="text-xl text-muted-foreground md:text-2xl">Pizza Planeta Now on GitHub</p>
       </header>
 
       <ProjectSection number="01" title="What it is">
