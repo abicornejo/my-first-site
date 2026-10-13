@@ -13,7 +13,7 @@ export default function Page() {
           <div className="h-2 w-8 rounded-full bg-highlight" />
         </div>
         <p className="font-mono text-sm uppercase tracking-widest text-muted-foreground">Project</p>
-        <h1 className="text-6xl font-bold tracking-tight text-foreground md:text-8xl">enjoy your self</h1>
+        <h1 className="text-6xl font-bold tracking-tight text-foreground md:text-8xl">Pizza Planeta</h1>
       </header>
 
       <ProjectSection number="01" title="What it is">
